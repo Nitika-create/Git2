@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+
+     <listener class-name="nitikag.Selenium.Listeners"/>
+     </listeners>
+
+
+  <test thread-count="5" name="App Testing">
+    <classes>
+      <class name="nitikag.Selenium.AppTest"/>
+      </classes>
+      </test>
+       <test thread-count="5" name="Validating title in the page">
+        <classes>
+      <class name="nitikag.Selenium.ValiDateTitleTest"/>
+         </classes>
+           </test>
+            <test thread-count="5" name="Validating Navigation bar">
+    <classes>
+      <class name="nitikag.Selenium.ValidateNavigationBarTest"/>
+      </classes>
+      </test>
+       <test thread-count="5" name="Validating User Login">
+        <classes>
+      <class name="nitikag.Selenium.HomePageTest"/>
+      </classes>
+      
+   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

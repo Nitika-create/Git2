@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-13T12:03:41 EST" name="Default suite" finished-at="2021-01-13T12:04:13 EST" duration-ms="32324">
+    <groups>
+    </groups>
+    <test started-at="2021-01-13T12:03:41 EST" name="Default test" finished-at="2021-01-13T12:04:13 EST" duration-ms="32324">
+      <class name="nitikag.Selenium.HomePageTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:nitikag.Selenium.HomePageTest@61230f6a]" started-at="2021-01-13T12:03:41 EST" name="initialize" finished-at="2021-01-13T12:03:45 EST" duration-ms="3991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nitikag.Selenium.HomePageTest@61230f6a]" started-at="2021-01-13T12:03:45 EST" name="basePageNavigation" data-provider="getData" finished-at="2021-01-13T12:04:00 EST" duration-ms="15235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qwerty.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nitikag.Selenium.HomePageTest@61230f6a]" started-at="2021-01-13T12:04:00 EST" name="basePageNavigation" data-provider="getData" finished-at="2021-01-13T12:04:13 EST" duration-ms="12974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qwerty.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Non Restricted User]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:nitikag.Selenium.HomePageTest@61230f6a]" started-at="2021-01-13T12:04:13 EST" name="teardown" finished-at="2021-01-13T12:04:13 EST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- nitikag.Selenium.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

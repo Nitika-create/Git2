@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="nitikag.Selenium.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Validating title in the page(failed)">
+    <classes>
+      <class name="nitikag.Selenium.ValiDateTitleTest">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- nitikag.Selenium.ValiDateTitleTest -->
+    </classes>
+  </test> <!-- Validating title in the page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
